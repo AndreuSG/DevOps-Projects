@@ -22,21 +22,12 @@
 - [Fitxers del projecte](#fitxers-del-projecte)
 - [Execució de les comandes](#execució-de-les-comandes)
     - [Comprovem que no tenim ninguna instancia creada a AWS](#comprovem-que-no-tenim-ninguna-instancia-creada-a-aws)
-<<<<<<< HEAD
 
 ### Conclusió
 - [Resultats Obtinguts](#resultats-obtinguts)
 - [Potencials Millores Futures](#potencials-millores-futures)
 - [Conclusió final](#conclusió-final)
 
-=======
-    - [Terraform init](#terraform-init)
-    - [Terraform plan](#terraform-plan)
-    - [Terraform apply](#terraform-apply)
-    - [Comprovem que les 3 instancies s'han creat](#comprovem-que-les-3-instancies-shan-creat)
-    - [Ens connectem per SSH a les instancies d'AWS](#ens-connectem-per-ssh-a-les-instancies-dAWS)
-    - [Comprovem els logs on podem veure que se estan realitzant les instal·lacions](#Comprovem-els-logs-on-podem-veure-que-se-estan-realitzant-les-installacions)
->>>>>>> 619581bf8a157e632db378a71572a626b193fb66
 <br><br>
 
 # Introducció
@@ -57,13 +48,13 @@ Aquest projecte final tracta d'integrar i automatitzar la gestió d'infraestruct
 
 ## Amazon Web Services (AWS)
 
-[Enllaç a projecte sobre AWS on expliquem detalladament de que trata aquesta tecnòlogia](../6--Cloud/README.md)
+[Enllaç a projecte sobre AWS on expliquem detalladament de que trata aquesta tecnòlogia](https://github.com/AndreuSG/Sysadmin-Projects/tree/main/--AmazonWebService-Catala--)
 
 <br>
 
 ## Ansible
 
-[Enllaç a projecte sobre Ansible on expliquem detalladament de que trata aquesta tecnòlogia](../6--Cloud/README.md)
+[Enllaç a projecte sobre Ansible on expliquem detalladament de que trata aquesta tecnòlogia](https://github.com/AndreuSG/DevOps-Projects/tree/main/--Ansible--)
 
 <br>
 
@@ -138,7 +129,6 @@ Les instàncies AWS poden utilitzar dades d'usuari (user data) per realitzar con
 
 ## Fitxers del projecte
 
-<<<<<<< HEAD
 [id-rsa](./config-files/id_rsa) --> Clau privada del client que es conectarà a la màquina.
 
 [id_rsa.pub](./config-files/id_rsa.pub) --> Clau pública que copiem a les instancies d'AWS.
@@ -148,7 +138,7 @@ Les instàncies AWS poden utilitzar dades d'usuari (user data) per realitzar con
 [userdata_agent.sh](./config-files/userdata_agent.sh) i [userdata_server.sh](./config-files/userdata_server.sh) --> Aquests scripts automatitzen la configuració d'una instància EC2 d'AWS per convertir-la en un node agent de RKE (Rancher Kubernetes Engine). Els passos inclouen la instal·lació de Git, Python, Ansible, la clonació d'un repositori de GitHub amb exemples d'Ansible, i l'execució d'un playbook d'Ansible per configurar la instància. 
 
 [main.tf](./config-files/main.tf) --> Fitxer principal on s'executen les comandes terraform i es crida als fitxers comentats anteriorment creant tota l'estructura.
-=======
+
 [id-rsa](./id_rsa) --> Clau privada del client que es conectarà a la màquina.
 
 [id_rsa.pub](./id_rsa.pub) --> Clau pública que copiem a les instancies d'AWS.
@@ -158,7 +148,6 @@ Les instàncies AWS poden utilitzar dades d'usuari (user data) per realitzar con
 [userdata_agent.sh](.userdata_agent.sh) i [userdata_server.sh](./config-files/userdata_server.sh) --> Aquests scripts automatitzen la configuració d'una instància EC2 d'AWS per convertir-la en un node agent de RKE (Rancher Kubernetes Engine). Els passos inclouen la instal·lació de Git, Python, Ansible, la clonació d'un repositori de GitHub amb exemples d'Ansible, i l'execució d'un playbook d'Ansible per configurar la instància. 
 
 [main.tf](./main.tf) --> Fitxer principal on s'executen les comandes terraform i es crida als fitxers comentats anteriorment creant tota l'estructura.
->>>>>>> 619581bf8a157e632db378a71572a626b193fb66
 
 <br><br>
 
@@ -209,8 +198,9 @@ Les instàncies AWS poden utilitzar dades d'usuari (user data) per realitzar con
 ![Logs](../.Images/ATAK/captura10.png)
 ![Logs](../.Images/ATAK/captura11.png)
 
-<<<<<<< HEAD
 A la penúltima tasca es queda pensant i no hem conseguit avançar.
-=======
+
 A la penúltima tasca es queda pensant i no hem conseguit avançar.
->>>>>>> 619581bf8a157e632db378a71572a626b193fb66
+
+Completarem el projecte més endevant.
+
