@@ -4,7 +4,6 @@
 
 ### Introducció
 - [Context del Projecte](#context-del-projecte)
-- [Descripció del projecte](#descripció-del-projecte)
 - [Objectius del Projecte](#objectius-del-projecte)
 - [Amazon Web Services (AWS)](#amazon-web-services-aws)
 - [Terraform](#terraform)
